@@ -6,10 +6,10 @@ int main() {
     scanf("%d",&num);
     int result = lsb & num;
     if (result==0){
-        printf("Set");
+        printf("Not Set");
     } 
     else{
-        printf("Not Set");
+        printf("Set");
     }
     return 0;
 }
