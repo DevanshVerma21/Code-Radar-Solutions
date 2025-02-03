@@ -1,9 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    scanf("%s",n);
-    char str[100]=n;
-    
-    printf("%s",str);
+    char str[100]=name;
+    scanf("%s",name);
+    int age;
+    scanf("%d",age);
+    char str2[100]=hobby;
+    scanf("%s",hobby);
+
+    printf("%s",name);
+    printf("%d",age);
+    printf("%s",hobby);
     return 0;
 }
