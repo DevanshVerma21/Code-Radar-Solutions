@@ -8,11 +8,11 @@ int main() {
         printf("True");
     }
     else if(a<=b){
-        printf("False")
+        printf("False");
 
     }
-    else{
-        printf("False")
+    else if(a==b){
+        printf("True");
     }
     return 0;
 }
