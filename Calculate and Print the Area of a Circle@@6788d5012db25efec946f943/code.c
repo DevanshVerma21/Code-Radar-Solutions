@@ -3,7 +3,7 @@
 int areacircle(){
     float n;
     float pi = 3.14;
-    scanf("%.2f",&n);
+    scanf("%f",&n);
     float area = pi * n;
     printf("Area: %.2f",area);
 
