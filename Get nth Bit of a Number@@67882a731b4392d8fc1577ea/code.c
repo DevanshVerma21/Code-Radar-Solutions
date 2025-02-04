@@ -5,7 +5,7 @@ int main() {
     scanf("%d %d",&num,&bit);
     int result = (num>>bit)&1;
     if (result==bit){
-        printf("%d",result);
+        printf("%d",bit);
     }
     
 
