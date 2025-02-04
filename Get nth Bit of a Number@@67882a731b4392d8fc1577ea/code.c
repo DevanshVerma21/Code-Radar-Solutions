@@ -3,7 +3,8 @@
 int main() {
     int num,bit;
     scanf("%d %d",&num,&bit);
-    int result = (num>>bit) & 1;
+    int result = (num>>bit);
+
     if (result==num){
         printf("%d",result);
     }
