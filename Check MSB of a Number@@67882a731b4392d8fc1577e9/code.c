@@ -3,7 +3,7 @@
 int main(){
     int num;
     scanf("%d",&num);
-    int msb = (num >> 7) & 1;
+    int msb = (num >> 31) & 1;
     if (msb == 0){
         printf("Not Set");
     }
