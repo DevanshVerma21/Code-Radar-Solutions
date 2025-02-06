@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-int setlowestbit(){
+int setlowestbit(int number){
     if (number == 0){
         return -1;
     }
+    
     int lowestbit = number & -number;
 
     int position = 0;
@@ -21,3 +22,4 @@ int main() {
     printf("%d",position);
     return 0;
 }
+
