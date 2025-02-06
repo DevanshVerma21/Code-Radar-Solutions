@@ -18,6 +18,6 @@ int main() {
     int number;
     scanf("%d",&number);
     int position = setlowestbit(number);
-        printf("%d",position);
+    printf("%d",position);
     return 0;
 }
