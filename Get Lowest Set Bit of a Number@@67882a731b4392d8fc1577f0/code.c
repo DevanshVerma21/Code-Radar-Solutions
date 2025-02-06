@@ -17,8 +17,7 @@ int setlowestbit(){
 int main() {
     int number;
     scanf("%d",&number);
-    if (position == setlowestbit(number)){
+    int position = setlowestbit(number);
         printf("%d",position);
-    }
     return 0;
 }
