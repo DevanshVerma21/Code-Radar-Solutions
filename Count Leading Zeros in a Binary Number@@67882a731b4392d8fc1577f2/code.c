@@ -5,13 +5,13 @@ int countleadingzeroes(unsigned int number){
     if (number==0){
         return sizeof(number)*8;
     }
-    for (int i = sizeof(number)*8-1;i >= 0;i--)
-    {
+    for (int i = sizeof(number)*8-1;i >= 0;i--){
         if ((number >> i)& 1){
             break;
         }
         count++;
     }
+    return count;
 }
 
 
