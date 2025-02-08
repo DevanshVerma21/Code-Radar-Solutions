@@ -1,9 +1,13 @@
 #include <stdio.h>
 
+int countleadingzeroes(unsigned int number){
+    return __buitlin_clz(number);
+}
+
 int main() {
-    int number;
+    unsigned int number;
     scanf("%d",&number);
 
-    printf("%d",number);
+    printf("%d",countleadingzeroes(number));
     return 0;
 }
