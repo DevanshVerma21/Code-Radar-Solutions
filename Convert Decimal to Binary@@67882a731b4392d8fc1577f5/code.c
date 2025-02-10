@@ -22,6 +22,7 @@ void decimal_to_binary(int num) {
     }
 
     // Print the binary number in reverse order
+
     for (int i = index - 1; i >= 0; i--) {
         printf("%d", binary[i]);  // Print each digit in reverse order
     }
@@ -35,8 +36,7 @@ int main() {
     scanf("%d", &num);
 
     // Convert and print the binary representation
-    printf("%d",decimal_to_binary());
-
+    decimal_to_binary(num);
 
     return 0;
 }
