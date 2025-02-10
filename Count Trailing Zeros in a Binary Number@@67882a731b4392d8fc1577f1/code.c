@@ -11,7 +11,7 @@ int counttrailingzeroes(int num){
 int main() {
     int num;
     scanf("%d",&num);
-    itn result = counttrailingzeroes(num);
+    int result = counttrailingzeroes(num);
     printf("%d",result);
     
     return 0;
