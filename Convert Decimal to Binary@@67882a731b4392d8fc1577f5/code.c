@@ -33,11 +33,11 @@ int main() {
     int num;
 
     // Ask the user for input
-    printf("Enter a number: ");
     scanf("%d", &num);
 
     // Convert and print the binary representation
-    decimal_to_binary(num);
+    printf(decimal_to_binary(num));
+
 
     return 0;
 }
