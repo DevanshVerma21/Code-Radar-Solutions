@@ -36,7 +36,7 @@ int main() {
     scanf("%d", &num);
 
     // Convert and print the binary representation
-    printf("%d",decimal_to_binary(num));
+    printf("%d",decimal_to_binary());
 
 
     return 0;
