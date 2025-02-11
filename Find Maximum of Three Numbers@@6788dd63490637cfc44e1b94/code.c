@@ -12,9 +12,6 @@ int main(){
     else if ( c > b && c > a){
         printf("%d",c);
     }
-    if (a==b==c){
-        printf("%d",a);
-    }
     else{
         printf("%d",a);
     }
