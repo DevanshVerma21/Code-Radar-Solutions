@@ -13,7 +13,7 @@ int main(){
         printf("Digit");
     }
     else if((ch >= 'a' && ch <= 'z') ||(ch >= 'A' && ch <= 'Z')){
-        printf("Constant");
+        printf("Consonant");
     }
     else {
         printf("Special Character");
