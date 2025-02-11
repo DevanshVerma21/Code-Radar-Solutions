@@ -3,9 +3,9 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    int a = a ^ b;
-    int b = a ^ b;
-    int a = a ^ b;
+    a = a ^ b;
+    b = a ^ b;
+    a = a ^ b;
     printf("%d %d",a,b);
 }
 
