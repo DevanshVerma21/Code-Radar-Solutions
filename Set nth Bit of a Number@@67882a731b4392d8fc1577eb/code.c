@@ -2,7 +2,7 @@
 int main(){
     int number,bit;
     scanf("%d %d",&number,&bit);
-    int result = (number >> bit) & 1;
+    int result = number | (number & 1);
     printf("%d",result);
 
 
