@@ -14,6 +14,8 @@ int main(){
     }
     if (a==b==c){
         printf("%d",a);
-
+    }
+    else{
+        printf("%d",a)
     }
 }
