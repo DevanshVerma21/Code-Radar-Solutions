@@ -17,8 +17,13 @@ int main(){
         printf("%d",multiply);
     }
     else if (operand == '/'){
+        if (num2==0){
+            printf("error")
+        }
+        else{
         int divide = num1 / num2;
         printf("%d",divide);
+        }
         }
 
 }
