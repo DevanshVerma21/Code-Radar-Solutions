@@ -4,7 +4,7 @@
 int main(){
     int number,square;
     scanf("%d %d",&number,&square);
-    if (number == square*square)){
+    if (number == square*square){
         printf("Yes");
     }
     else{
