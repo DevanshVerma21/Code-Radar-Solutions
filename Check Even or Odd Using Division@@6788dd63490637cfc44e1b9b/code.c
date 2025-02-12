@@ -10,3 +10,6 @@ int oddoreven(){
         printf("Odd");
     }
 }
+int main(){
+    oddoreven();
+}
