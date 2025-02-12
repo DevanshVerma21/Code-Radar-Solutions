@@ -13,5 +13,5 @@ int main(){
     int age;
     scanf("%d",&age);
 
-    printf("%s",agecheck(int age))
+    printf("%s",agecheck(int age));
 }
