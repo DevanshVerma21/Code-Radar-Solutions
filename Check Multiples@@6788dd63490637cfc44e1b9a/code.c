@@ -11,9 +11,6 @@ int multiplecheck(){
     }
 }
 
-
-
-
 int main(){
-
+    multiplecheck();
 }
