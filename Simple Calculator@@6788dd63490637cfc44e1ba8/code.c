@@ -18,7 +18,7 @@ int main(){
     }
     else if (operand == '/'){
         if (num2==0){
-            printf("error")
+            printf("error");
         }
         else{
         int divide = num1 / num2;
