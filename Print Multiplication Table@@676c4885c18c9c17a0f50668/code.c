@@ -8,5 +8,4 @@ int main(){
         multiply = n*i; 
         printf("%d x %d = %d\n",n,i,multiply);
     }
-    printf("\n");
 }
