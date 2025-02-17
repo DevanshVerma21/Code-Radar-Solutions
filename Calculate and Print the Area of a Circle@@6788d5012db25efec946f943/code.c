@@ -2,10 +2,10 @@
 
 int areacircle(){
     float n;
-    float pi = 3.14;
+    const float pi = 3.14;
     scanf("%f",&n);
-    float area = pi * n * n;
-    printf("Area: %.2f",area);
+    printf("Area: %.2f",3.14*n*n);
+    return 0;
 
 
 }
