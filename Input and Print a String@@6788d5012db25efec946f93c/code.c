@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main(){
-    char ch[100];
-    scanf("%99s",&ch);
+    char ch[];
+    scanf("%s",&ch);
     printf("You entered: %s",ch);
 }
+
 // #include <stdio.h>
 
 // int main() {
