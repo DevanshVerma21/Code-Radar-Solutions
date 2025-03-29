@@ -9,9 +9,8 @@ int main(){
             printf(" ");
         }
         for(int j =1;j<=i;j++){
-            if(rows==j){
                 printf("%d ",j);
-            }
+            
         }
         printf("\n");
     }
