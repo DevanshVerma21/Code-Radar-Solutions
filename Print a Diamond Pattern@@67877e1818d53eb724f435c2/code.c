@@ -15,5 +15,13 @@ int main(){
         printf("\n");
     }
     //lower half
-    // for(int )
+    for(int i = rows-1;i>=1;i--){
+        for(int j =1;j<=rows-i;j++){
+            printf(" ");
+        }
+        for(int j =1;j<=(2*i)-1;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
 }
