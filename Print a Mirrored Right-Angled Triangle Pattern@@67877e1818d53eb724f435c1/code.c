@@ -5,13 +5,14 @@ int main(){
     int rows;
     scanf("%d",&rows);
 
-    for (int i = 1 ; i<=rows;i++){
-        for(int a=1;a<=rows-i;a++){
-            printf(" ");
+    for(int i = 1;i<=rows;i++){
+        for(int j = 1;j<=rows-i;j++){
+            printf("");
         }
-        for(int b=1;b<=i;b++){
+        for(int k = 1;k<=i;k++){
             printf("*");
         }
-    printf("\n");
+        printf("\n");
     }
+    
 }
