@@ -31,13 +31,13 @@ int main() {
     int n;
 
     // Input array size
-    printf("Enter the number of elements: ");
+    // printf("Enter the number of elements: ");
     scanf("%d", &n);
 
     int arr[n];
 
     // Input array elements
-    printf("Enter the elements: ");
+    // printf("Enter the elements: ");
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -46,7 +46,7 @@ int main() {
     int peak = findFirstPeak(arr, n);
 
     // Print result
-    printf("First peak element: %d\n", peak);
+    printf("%d\n", peak);
 
     return 0;
 }
