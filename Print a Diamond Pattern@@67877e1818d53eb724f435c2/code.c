@@ -16,7 +16,7 @@ int main(){
     }
     //lower half
     for(int i = 1;i>=1;i--){
-        for(int i =rows;j<=rows-i;j++){
+        for(int j =rows;j<=rows-i;j++){
             printf(" ");
         }
         for(int j =1;j<=(2*i)-1;j++){
