@@ -23,7 +23,4 @@ int main(){
     if (arr[n-1]>arr[n-2]){
         printf("%d\n",arr[n-1]);
     }
-    if(){
-        printf("%d",-1);
-    }
 }
