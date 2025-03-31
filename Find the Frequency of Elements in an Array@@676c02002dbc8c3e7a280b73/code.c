@@ -8,7 +8,6 @@ void findFrequency(int arr[], int n) {
         visited[i] = 0;
     }
 
-    printf("Element Frequency\n");
 
     for (int i = 0; i < n; i++) {
         if (visited[i] == 1) {
