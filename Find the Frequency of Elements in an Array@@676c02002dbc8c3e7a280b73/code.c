@@ -9,13 +9,14 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    for(int i = 0;i<n;i++){  
-        int count=0;
+    int count=0;
+    for(int i = 0;i<n;i++){
         for(int j =0;j<n;j++){
             if(arr[j]==arr[i]){
                 count++;
             }
         }
+    
+    printf("%d %d",arr[i],count);
     }
-    printf("%d %d",arr,count);
 }
