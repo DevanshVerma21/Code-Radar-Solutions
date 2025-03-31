@@ -1,7 +1,7 @@
 #include <math.h>
 
 int isPrime(int num){
-    int sqrt = num**1/2;
+    float sqrt = num**1/2;
     if(num<=1){
         return 0;
     }
