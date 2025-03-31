@@ -11,7 +11,7 @@ int isPrime(int num){
 
     for(int i = 5; i*i <= num;i += 2){
         if (num%i==0){
-            return 0:
+            return 0;
         }
     }
     return 1;
