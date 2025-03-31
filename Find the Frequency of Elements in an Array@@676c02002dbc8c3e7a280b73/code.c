@@ -31,4 +31,4 @@ int main(){
         scanf("%d",&arr[i]);
     
     findfrequency(arr,n);
-}
+}}
